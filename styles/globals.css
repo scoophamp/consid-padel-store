@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* I've choosen tailwind to handle my ccs for me to make fast and clean styling */
