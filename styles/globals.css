@@ -2,4 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    body {
+      @apply bg-slate-700;
+    }
+  }
 /* I've choosen tailwind to handle my ccs for me to make fast and clean styling */

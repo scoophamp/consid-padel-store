@@ -6,7 +6,7 @@ export default function Home({mainPage}) {
   return (
     <div className='grid grid-cols-2'>    
     <Image data={mainPage.mainImage.responsiveImage}/>
-    <div className='flex justify-center'>
+    <div className='flex justify-center text-white'>
       <div className='p-10'>
       <h1 className='text-3xl mb-4'>{mainPage.title}</h1>
       <StructuredText data={mainPage.content.value}/>
